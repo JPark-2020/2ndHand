@@ -1,0 +1,22 @@
+.featuredItemContainer {
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.featuredItemImage {
+  width: 200px;
+  height: 200px;
+}
+.featuredItemImage img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  text-align: center;
+}
+
+.featuredItemInfo {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
