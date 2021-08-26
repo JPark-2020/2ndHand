@@ -19,6 +19,14 @@
   margin-left: 40px;
 }
 
+a {
+  text-decoration: none; 
+}
+
+a:visited {
+  color: inherit; 
+}
+
 .topbarCenter {
   flex: 5.5;
 }
@@ -62,8 +70,9 @@
 .shopLink {
   border: 1px solid #e1e1e1;
   padding: 10px;
-  width: 68px;
+  width: 60px;
   text-align: center;
+  max-width: 60px;
 }
 
 .sellLink {
@@ -71,4 +80,7 @@
   background-color: black;
   color: white;
   padding: 10px;
+  width: 60px;
+  text-align: center;
+  max-width: 60px;
 }

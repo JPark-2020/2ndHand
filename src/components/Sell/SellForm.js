@@ -41,7 +41,7 @@ const SellForm = () => {
       image: fileUrl,
       sellerId: fire.auth().currentUser.uid,
       sellerName: fire.auth().currentUser.email,
-      likes: 0,
+      likes: [],
     });
     history.push("/");
   };

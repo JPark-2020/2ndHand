@@ -1,20 +1,21 @@
 import "./FeaturedItem.css";
 
-const FeaturedItem = () => {
+const FeaturedItem = (props) => {
+
   return (
     <div className="featuredItemContainer">
       <div className="featuredItemImage">
-        <img src="assets/images/shades.jpeg" alt="item image" />
+        <img src={props.image} alt="item image" />
       </div>
       <div className="featuredItemInfo">
-        <p>added 9 hours ago</p>
         <h4>
-          Item Brand <span>Size</span>
+          {props.brand} <span>{props.size}</span>
         </h4>
-        <p>Item Name</p>
+        <p>{props.item}</p>
         <p>
-          Price <span>Like/Dislike</span>
+          ${props.price}
         </p>
+        <p>{props.sellerName}</p>
       </div>
     </div>
   );

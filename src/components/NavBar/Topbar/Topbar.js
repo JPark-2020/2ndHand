@@ -1,6 +1,5 @@
 import "./Topbar.css";
 import { Search } from "@material-ui/icons";
-import { Link } from "react-router-dom";
 import {fire} from '../../../util/firebase';
 
 
@@ -12,7 +11,7 @@ const Topbar = () => {
     <div className="topbarContainer">
       <div className="topbarLeft">
         <span className="logo">
-          <Link to="/">2ND HAND</Link>
+          <a href="/">2ND HAND</a>
         </span>
       </div>
 
@@ -31,8 +30,8 @@ const Topbar = () => {
         <div className="topbarLinks">
           <span className="topbarLink shopLink"><a href="/shop">SHOP</a></span>
           <span className="topbarLink sellLink"><a href="/sell">SELL</a></span>
-          <span className="topbarLink"><a href="/profile">Profile</a></span>
-          <span className="topbarLink" onClick={logoutHandler}>Log Out</span>
+          <span className="topbarLink shopLink"><a href="/profile">Profile</a></span>
+          <span className="topbarLink sellLink" onClick={logoutHandler}>Log Out</span>
         </div>
       </div>
     </div>

@@ -9,17 +9,27 @@
   width: 500%;
   height: 500px;
   display: flex;
+  min-width: 1000px;
+  
 }
 
 .catslides input {
   display: none;
 }
 
+.featuredHeader{
+  font-weight: bold;
+  font-size: 24px; 
+  padding: 30px;
+  position: absolute;
+  margin-top: 55px;
+  z-index: 999,
+}
+
 .catslide {
   width: 20%;
   transition: 2s;
   display: flex;
-  min-width: 1370px;
 }
 
 .catslideInfo {
@@ -41,13 +51,13 @@
   margin-left: 0;
 }
 #catradio2:checked ~ .first {
-  margin-left: -22%;
+  margin-left: -20%;
 }
 #catradio3:checked ~ .first {
-  margin-left: -43%;
+  margin-left: -40%;
 }
 #catradio4:checked ~ .first {
-  margin-left: -64%;
+  margin-left: -60%;
 }
 
 .prevSlideButton {
@@ -59,9 +69,9 @@
 
 .nextSlideButton {
   position: absolute;
-  margin-top: -245px;
+  margin-top: -255px;
   right: 0;
-  margin-right: 13%;
+  margin-right: 15%;
 }
 
 .test {

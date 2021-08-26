@@ -33,9 +33,10 @@
 }
 
 .slideInfo h3 {
-  margin-top: 40%;
+  margin-top: 250px;
   margin-left: 20px;
   font-size: 12px;
+  margin-bottom: auto; 
 }
 
 .slideInfo p {
@@ -51,6 +52,7 @@
   border: 1px solid black;
   padding: 20px;
   background: white;
+  margin-bottom: auto; 
 }
 
 .slideInfo button:hover {
@@ -58,6 +60,8 @@
   background: black;
   transition: 0.4s;
 }
+
+
 
 /*  It will select any <p> elements, as long as they follow a <h4>,  */
 

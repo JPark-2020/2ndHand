@@ -64,7 +64,7 @@ const MainGallery = () => {
           <div className="slideInfo">
             <h3>CURATED COLLECTIONS</h3>
             <p>BAPE under $100</p>
-            <button>Shop Now</button>
+            <button className="slideinfoButton">Shop Now</button>
           </div>
           <img className="slideImage" src="/assets/images/maingallery1.jpeg" />
         </div>
@@ -75,7 +75,7 @@ const MainGallery = () => {
             <p>
               Your Listings, <br /> Boosted by 2nd Hand
             </p>
-            <button>List Now</button>
+            <button className="slideinfoButton">List Now</button>
           </div>
           <img className="slideImage" src="/assets/images/maingallery2.jpeg" />
         </div>
@@ -87,7 +87,7 @@ const MainGallery = () => {
               Most Expensive Items Sold <br />
               This Week
             </p>
-            <button>Read</button>
+            <button className="slideinfoButton">Read</button>
           </div>
           <img className="slideImage" src="/assets/images/maingallery3.jpeg" />
         </div>
@@ -99,7 +99,7 @@ const MainGallery = () => {
               Most In-Demand Items <br />
               This Week
             </p>
-            <button>Read</button>
+            <button className="slideinfoButton">Read</button>
           </div>
           <img className="slideImage" src="/assets/images/maingallery4.jpeg" />
         </div>
