@@ -41,14 +41,6 @@ const CategoryGallery = () => {
         <div className="categoryItem">
           <img
             className="categoryItemImage"
-            src="assets/images/backpack.jpeg"
-            alt="luggage image"
-          />
-          <p className="categoryItemInfo">Luggage</p>
-        </div>
-        <div className="categoryItem">
-          <img
-            className="categoryItemImage"
             src="/assets/images/accessories.jpeg"
             alt="accessories image"
           />

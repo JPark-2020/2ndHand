@@ -28,7 +28,7 @@ const SellForm = () => {
   const submitHandler = async (event) => {
     event.preventDefault();
     const itemInfo =
-      fire.auth().currentUser.uid + ":" + event.target.itemName.value;
+      await fire.auth().currentUser.uid + ":" + event.target.itemName.value + Math.random(1,999999);
     await sellRef.doc(itemInfo).set({
       item: itemName,
       brand: itemBrand,
@@ -36,6 +36,7 @@ const SellForm = () => {
       description: itemDescription,
       category: itemCategory,
       id: uuidv4(),
+      size: itemSize, 
       color: itemColor,
       image: fileUrl,
       sellerId: fire.auth().currentUser.uid,
@@ -84,7 +85,6 @@ const SellForm = () => {
           <option value="bottoms">Bottoms</option>
           <option value="footwear">Footwear</option>
           <option value="outerwear">Outerwear</option>
-          <option value="luggage">Luggage</option>
           <option value="accessories">Accessories</option>
         </select>
 

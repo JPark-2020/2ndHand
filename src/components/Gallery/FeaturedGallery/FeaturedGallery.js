@@ -69,7 +69,17 @@ const FeaturedGallery = () => {
             <div className="catslideInfo">
               <FeaturedItem />
               <FeaturedItem />
+
               <FeaturedItem />
+              <FeaturedItem />
+              <FeaturedItem />
+            </div>
+          </div>
+
+          <div className="catslide">
+            <div className="catslideInfo">
+              <FeaturedItem />
+
               <FeaturedItem />
               <FeaturedItem />
               <FeaturedItem />
@@ -80,8 +90,7 @@ const FeaturedGallery = () => {
           <div className="catslide">
             <div className="catslideInfo">
               <FeaturedItem />
-              <FeaturedItem />
-              <FeaturedItem />
+
               <FeaturedItem />
               <FeaturedItem />
               <FeaturedItem />
@@ -91,20 +100,6 @@ const FeaturedGallery = () => {
 
           <div className="catslide">
             <div className="catslideInfo">
-              <FeaturedItem />
-              <FeaturedItem />
-              <FeaturedItem />
-              <FeaturedItem />
-              <FeaturedItem />
-              <FeaturedItem />
-              <FeaturedItem />
-            </div>
-          </div>
-
-          <div className="catslide">
-            <div className="catslideInfo">
-              <FeaturedItem />
-              <FeaturedItem />
               <FeaturedItem />
               <FeaturedItem />
               <FeaturedItem />

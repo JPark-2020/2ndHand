@@ -18,9 +18,9 @@ const Login = (props) => {
   return (
     <div className="login">
       <div className="loginContainer">
-        <label>Username</label>
+        <label>Email</label>
         <input
-          type="text"
+          type="email"
           autoFocus
           required
           value={email}
