@@ -10,12 +10,12 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
-import Profile from './pages/Profile/Profile';
-import Sell from './pages/Sell/Sell';
-import Shop from './pages/Shop/Shop';
+import Profile from "./pages/Profile/Profile";
+import Sell from "./pages/Sell/Sell";
+import Shop from "./pages/Shop/Shop";
 import Login from "./pages/Auth/Login";
 import Topbar from "./components/NavBar/Topbar/Topbar";
-import SecondaryBar from './components/NavBar/SecondaryBar/SecondaryBar';
+import SecondaryBar from "./components/NavBar/SecondaryBar/SecondaryBar";
 
 const App = () => {
   const [user, setUser] = useState("");
@@ -57,7 +57,6 @@ const App = () => {
   const signupHandler = () => {
     clearErrors();
 
-
     fire
       .auth()
       .createUserWithEmailAndPassword(email, password)
@@ -96,8 +95,8 @@ const App = () => {
   if (user) {
     return (
       <Router>
-      <Topbar/>
-      <SecondaryBar/>
+        <Topbar />
+        <SecondaryBar />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -106,10 +105,10 @@ const App = () => {
             <Profile />
           </Route>
           <Route path="/shop">
-              <Shop />
+            <Shop />
           </Route>
           <Route path="/sell">
-              <Sell />
+            <Sell />
           </Route>
         </Switch>
       </Router>
