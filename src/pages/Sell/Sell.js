@@ -1,8 +1,11 @@
+import SellForm from '../../components/Sell/SellForm';
 
 
 const Sell = () => {
     return (
-        <div>Sell</div>
+        <div>
+            <SellForm/>
+        </div>
     )
 }
 
